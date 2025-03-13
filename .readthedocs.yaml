@@ -12,7 +12,7 @@ python:
     install:
     - requirements: requirements.txt
 
-formats: all
+#formats: all
 
 search:
   ranking:
