@@ -12,7 +12,6 @@ python:
     install:
     - requirements: requirements.txt
 
-formats: all
 
 search:
   ranking:
