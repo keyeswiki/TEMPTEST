@@ -4,7 +4,7 @@
    :caption: README
 
    README.md
-   docs/a
+   docs/Text
 
 
 
