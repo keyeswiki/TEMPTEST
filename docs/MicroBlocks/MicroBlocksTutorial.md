@@ -147,9 +147,9 @@ There are two programming methods for MicroBlocks.
 
 #### 1.5.1 Online on Browser (Recommended)
 
-Click on the link: [Home - MicroBlocks](https://microblocks.fun/).
+Click on the link: [MicroBlocks](https://microblocks.fun/run-pilot/)
 
-MicroBlocks can be run in Chrome or Edge browsers without installing any software. Just click 「Run」 in the menu bar at the top right of the page.
+MicroBlocks can be run in Chrome or Edge browsers without installing any software.
 
 ![t15](./media/t15.png)
 
@@ -158,6 +158,8 @@ Neither traditional applications nor professional technicians are required when 
 MicroBlocks can also run in other browsers, but it can only connect to the main board when running in Chrome or Edge browsers on desktops, laptops, or Chromebook computers (non-mobile devices).
 
 #### 1.5.2 MicroBlocks Software
+
+<span style="color:red; font-size:20px;">Note: The software version is currently in testing, please use '1.5.1 Online on Browser (Recommended)' first, and it is expected to be updated to the software in August. `</span>
 
 [Get Started - MicroBlocks](https://microblocks.fun/get-started#computer)
 
@@ -177,7 +179,7 @@ Download successful! Double-click to install.
 
 <span style="color:red;">Here we demonstrate how to burn firmware on browsers, which can be a reference for MicroBlocks software users.</span>
 
-[MicroBlocks](https://microblocks.fun/run/microblocks.html)
+[MicroBlocks](https://microblocks.fun/run-pilot/)
 
 Click on the link and open it in the browser to enter the programming page.
 
@@ -343,7 +345,7 @@ Blocks in ![](./media/codingBox.png):
 
 #### 3.1.4 Test Code
 
-You can manually build blocks, or directly open the code file we provide: `7-1-LED.ubp`. If you have any questions about how to open code files or upload code, please back to `1.9 Upload Code`.
+You can manually build blocks, or directly open the code file we provide: `3-1-LED.ubp`. If you have any questions about how to open code files or upload code, please back to `1.9 Upload Code`.
 
 **Build code blocks:**
 
