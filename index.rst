@@ -4,10 +4,7 @@
    :caption: dddddddddddddddddddd
 
    README.md
-   docs/index.md
-   docs/KidsBlockDesktop/KidsBlockDesktopTutorial.md
-   docs/MicroBlocks/MicroBlocksTutorial.md
-   docs/MicroPython/MicroPythonTutorial.md
+   docs/FB0002 foxbit T型机器人扩展板
 
 
 
