@@ -6,7 +6,7 @@
     "Environment.BMP388_state.BMP388_pressure|block": "ciśnienie(hPa)",
     "Environment.BMP388_state.BMP388_altitude|block": "wysokość(M)",
     "Environment|block": "Oktopod",
-    "Environment.dht11value|block": "DHT11 %dht11type| pin %dht11pin",
+    "Environment.dht11value|block": "DHT11 %dht11type pin %dht11pin",
     "Environment.ReadWaterLevel|block": "poziom wody(0~100) pin %waterlevelpin",
     "Environment.ReadSoilHumidity|block": "poziom wilgotności gleby(0~100) pin %soilhumiditypin",
     "Environment.ReadRainFall|block": "deszcz(0~100) pin %rainfallpin",

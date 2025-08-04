@@ -1,7 +1,7 @@
 /**
  * Custom blocks
  */
-//% color=#ff7a4b icon="\uf2db" block="Octopus"
+//% color=#ff7a4b icon="\uf2db" block="Environmental"
 namespace Environment {
 
     let weatherMonitorStarted = false;
@@ -111,7 +111,7 @@ namespace Environment {
 
     function getreg(reg: number): number {
         pins.i2cWriteNumber(BMP388_I2C_ADDR, reg, NumberFormat.UInt8BE);
-        return pins.i2cReadNumber(BME280_I2C_ADDR, NumberFormat.UInt8BE);
+        return pins.i2cReadNumber(BMP388_I2C_ADDR, NumberFormat.UInt8BE);
     }
 
     function getInt8LE(reg: number): number {
@@ -319,12 +319,12 @@ namespace Environment {
                 basic.pause(5);
             }
             fail_flag = 0;
-            // 拉高1us后拉低代表重置
+            // A high pulse of 1 microsecond followed by a low pulse indicates a reset.
             pins.digitalWritePin(pin, 1)
             delay_us(1)
             pins.digitalWritePin(pin, 0)
             basic.pause(18)
-            // 等待18ms后拉高代表开始
+            // After waiting for 18 milliseconds, raising the signal indicates the start.
             pins.digitalWritePin(pin, 1) //pull up pin for 18us
             delay_us(30)
             pins.digitalReadPin(pin);

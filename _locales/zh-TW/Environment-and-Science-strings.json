@@ -7,9 +7,9 @@
     "Environment.DHT11Type.DHT11_temperature_C|block": "攝氏溫度(℃)",
     "Environment.DHT11Type.DHT11_temperature_F|block": "華氏溫度(℉)",
     "Environment.dht11value|block": "DHT11感測器的 %dht11type|值 連接至 %dht11pin",
-    "{id:category}Environment": "keyestudio Environmental",
+    "{id:category}Environment": "Environmental",
     "Environment.ReadRainFall|block": "連接至 %rainfallpin 的雨量值(0~100)",
-    "Environment|block": "keyestudio Environmental",
+    "Environment|block": "Environmental",
     "Environment.BMP388_state.BMP388_altitude|block": "高度(M)",
     "Environment.BMP388_state.BMP388_temperature_C|block": "溫度(℃)",
     "Environment.BMP388_state.BMP388_pressure|block": "氣壓(hPa)"
