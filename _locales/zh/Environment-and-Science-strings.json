@@ -11,6 +11,6 @@
   "Environment.UVLevel|block": "紫外线传感器 %Rjpin 强度(0~15)",
   "Environment.dht11value|block":  "DHT11传感器的 %dht11type|值 连接至 %dht11pin",
   "Environment.octopus_BMP388|block": "BMP388传感器 的 %state 值",
-  "Environment|block": "keyestudio Environmental",
-  "{id:category}Environment": "keyestudio Environmental"
+  "Environment|block": "Environmental",
+  "{id:category}Environment": "Environmental"
 }

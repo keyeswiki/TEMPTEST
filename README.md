@@ -8,8 +8,9 @@ The KEYESTUDIO Environment and Science Kit can detect all kinds of environment d
 
 ## Hardware list 
 
-1. 
-1. 
+1. IIC OLED display
+1.  Temperature And Humidity Sensor
+1. Soil Moisture Sensor
 
 ## Basic usage
 
