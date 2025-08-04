@@ -1,0 +1,30 @@
+{
+    "name": "Environment-and-Science",
+    "version": "5.6.3",
+    "description": "Environment and Science Kit for micro:bit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "SSD1306_OLED": "github:tinkertanker/pxt-oled-ssd1306#v2.0.17",
+        "neopixel": "github:elecfreaks/pxt-neopixel#v0.6.22"
+    },
+    "files": [
+        "environment.ts",
+        "README.md",
+        "_locales/zh/Environment-and-Science-strings.json",
+        "_locales/zh-TW/Environment-and-Science-strings.json",
+        "_locales/pl/Environment-and-Science-strings.json"
+    ],
+    "testFiles": [
+        "tests.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "7.0.51",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}

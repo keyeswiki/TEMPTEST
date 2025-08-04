@@ -1,0 +1,16 @@
+{
+    "Environment.DHT11Type.DHT11_temperature_C|block": "temperatura(℃)",
+    "Environment.DHT11Type.DHT11_temperature_F|block": "temperatura(℉)",
+    "Environment.DHT11Type.DHT11_humidity|block": "wilgotność(0~100)",
+    "Environment.BMP388_state.BMP388_temperature_C|block": "temperatura(℃)",
+    "Environment.BMP388_state.BMP388_pressure|block": "ciśnienie(hPa)",
+    "Environment.BMP388_state.BMP388_altitude|block": "wysokość(M)",
+    "Environment|block": "Oktopod",
+    "Environment.dht11value|block": "DHT11 %dht11type| pin %dht11pin",
+    "Environment.ReadWaterLevel|block": "poziom wody(0~100) pin %waterlevelpin",
+    "Environment.ReadSoilHumidity|block": "poziom wilgotności gleby(0~100) pin %soilhumiditypin",
+    "Environment.ReadRainFall|block": "deszcz(0~100) pin %rainfallpin",
+    "Environment.octopus_BMP388|block": "BMP388 %state",
+    "Environment.UVLevel|block": "poziom UV pin %Rjpin (0~15)",
+    "{id:category}Environment": "Moduł środowiska Oktopod"
+}

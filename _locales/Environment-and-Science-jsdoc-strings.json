@@ -1,0 +1,12 @@
+{
+  "Environment": "Custom blocks",
+  "Environment.ReadWaterLevel": "get water level value (0~100)",
+  "Environment.ReadWaterLevel|param|waterlevelpin": "describe parameter here, eg: AnalogPin.P1",
+  "Environment.ReadSoilHumidity": "get soil moisture value (0~100)",
+  "Environment.ReadSoilHumidity|param|soilmoisturepin": "describe parameter here, eg: AnalogPin.P1",
+  "Environment.RainFall": "get rain fall value (0~100)",
+  "Environment.ReadRainFall|param|rainfallpin": "describe parameter here, eg: AnalogPin.P1",
+  "Environment.UVLevel": "UV sensor %pin level(0~15)",
+  "Environment.dht11value": "get dht11 temperature and humidity Value",
+  "Environment.dht11value|param|dht11pin": "describe parameter here, eg: DigitalPin.P15",
+}
