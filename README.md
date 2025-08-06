@@ -1,20 +1,44 @@
-# SU-03T
+# environment
 
-這是專為micro:bit提供的SU-03T語音辨識積木
+Environment and Science  package is developed under the cooperation of [KEYESTUDIO](https://www.keyestudio.com/), [CLASSROOM](http://www.classroom.com.hk/) and [TINKERCADEMY](https://tinkercademy.com/).
+
+The KEYESTUDIO Environment and Science Kit can detect all kinds of environment data like temperature, humidity, soil moisture , and so on. 
+
+![](https://github.com/keyestudio/pxt-environment/blob/master/icon.jpg)
+
+## Hardware list 
+
+1. IIC OLED display
+1.  Temperature And Humidity Sensor
+1. Soil Moisture Sensor
+
+## Basic usage
+
+1. Open [Microsoft Makecode/microbit](https://pxt.microbit.org) and create a new project 
+2. Search and add the `environment` package
+3. Use the `Environment` drawer in the editor to drag out and arrange the blocks
+4. Click `Download` to move your program to the micro:bit
+
+## Example
+
+### read temperature
+get DHT11 Temperature(℃)
+```blocks
+basic.forever(() => {
+    basic.showNumber(Environment.ReadTemperature(AnalogPin.P0))
+})
+```
+
+### read soil moisture
+get soil moisture, Value Range: 0~100.
+```blocks
+basic.forever(() => {
+    basic.showNumber(Environment.ReadSoilHumidity(AnalogPin.P3))
+})
+```
+
 
 ## License
 
-* MIT
-* 作者：劉正吉
-* author: Liou, Jeng-Jyi
-* https://sites.google.com/jes.mlc.edu.tw/ljj/
-* The package was designed for the module SU-03T ASR to connect micro:bit in makecode.
+MIT
 
-## Supported targets
-
-* for PXT/microbit
-(The metadata above is needed for package search.)
-
-```package
-SU03T=github:lioujj/pxt-su03t
-```

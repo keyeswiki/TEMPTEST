@@ -1,0 +1,12 @@
+{
+    "su03t|block": "SU-03T speech recognition",
+    "su03t.floatCommand.command06|block":"Integer",
+    "su03t.floatCommand.command07|block":"Decimal",
+    "su03t.su03tSetSerial|block": "SU-03T Initialize|B6 connect to %pinTX|B7 connect to %pinRX",
+    "su03t.su03tEvent|block": "When hearing the voice command of SU-03T",
+    "su03t.su03tCommandList|block": "Receive voice instructions%myCommand？",
+    "su03t.su03tSpeakSomething|block": "Transmit the numbers to the chip of SU-03T and read them out %myCommand|Numeric value(integer)%myNum",
+    "su03t.su03tSpeakFloat|block": "Transmit the numbers to the chip of SU-03T and read them out %myCommand|Numeric value%myNum",
+    "su03t.su03tSystemCommand|block": "SU-03T execute system instructions %myCommand",
+    "su03t.su03tPreCommand|block": "SU-03T chip is being read out %myCommand"
+}

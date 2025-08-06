@@ -95,10 +95,10 @@ namespace Environment {
         //% block="temperature(℃)" enumval=0
         BMP388_temperature_C,
 
-        //% block="pressure(hPa)" enumval=2
+        //% block="pressure(hPa)" enumval=1
         BMP388_pressure,
 
-        //% block="altitude(M)" enumval=3
+        //% block="altitude(M)" enumval=2
         BMP388_altitude,
     }
 
@@ -148,14 +148,6 @@ namespace Environment {
         var1 = (dig_P9 * (((_p >> 3) * (_p >> 3)) >> 13)) >> 12
         var2 = (((_p >> 2)) * dig_P8) >> 13
         P = _p + ((var1 + var2 + dig_P7) >> 4)
-        let adc_H = (getreg(0xFD) << 8) + getreg(0xFE)
-        var1 = t - 76800
-        var2 = (((adc_H << 14) - (dig_H4 << 20) - (dig_H5 * var1)) + 16384) >> 15
-        var1 = var2 * (((((((var1 * dig_H6) >> 10) * (((var1 * dig_H3) >> 11) + 32768)) >> 10) + 2097152) * dig_H2 + 8192) >> 14)
-        var2 = var1 - (((((var1 >> 15) * (var1 >> 15)) >> 7) * dig_H1) >> 4)
-        if (var2 < 0) var2 = 0
-        if (var2 > 419430400) var2 = 419430400
-        H = (var2 >> 12) / 1024
     }
 
     ////////////////////////////////////////////////////////NFC////////////////////////////////////////////
@@ -295,7 +287,6 @@ namespace Environment {
      * get dht11 temperature and humidity Value
      * @param dht11pin describe parameter here
      */
-    //% advanced=true
     //% blockId="readdht11" block="value of dht11 %dht11type| at pin %dht11pin"
     export function dht11value(dht11type: DHT11Type, dht11pin: DigitalPin): number {
         //initialize
