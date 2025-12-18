@@ -18,8 +18,9 @@
 # -- Project information -----------------------------------------------------
 
 project = 'keyes WiKi'
-author = 'keyes'
-copyright = 'Shenzhen keyes diy robot Co., Ltd'
+copyright = 'keyes , WiKi'
+author = 'keyes WiKi'
+copyright = 'Shenzhen keyes Technology Co., Ltd'
 
 root_doc = "index"
 master_doc = "index"
@@ -67,7 +68,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_book_theme'
+html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
   "show_toc_level": 3,
 }

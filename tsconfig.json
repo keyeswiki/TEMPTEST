@@ -1,9 +1,0 @@
-{
-    "compilerOptions": {
-        "target": "es3",
-        "noImplicitAny": true,
-        "outDir": "built",
-        "rootDir": "."
-    },
-    "exclude": ["pxt_modules/**/*test.ts"]
-}
